@@ -103,5 +103,52 @@ public class Main{
     }      
 }
 *************************************************************************
-7.)
+DATE (28/1/2025)
+7.)Divisible by 3, 5, Both
+
+import java.util.Scanner;
+public class Main{
+    public static void main(String[] args){
+        Scanner summa = new Scanner(System.in);
+        int num = summa.nextInt();
+        for(int i=1;i<=num;i++){
+            if(i%3==0)
+            System.out.println(i+" ");
+           
+        }
+        System.out.println("***********");
+        for(int i=1;i<=num;i++){
+            if(i%5==0)
+            System.out.println(i+" ");
+            
+        }
+        System.out.println("***********");
+        for(int i=1;i<=num;i++){
+            if(i%3==0&&i%5==0)
+            System.out.println(i+" ");
+        }
+        
+    }
+}
+************************************************************
+8.)Sum of the factors..
+
+import java.util.Scanner;
+public class Main{
+    public static void main(String[] args){
+        Scanner summa = new Scanner(System.in);
+        int num = summa.nextInt();
+        int count = 0;
+        for(int i=1;i<=num;i++){
+            if(num%i==0)
+                count = count+1;
+        }
+        System.out.println(count);
+    }
+    
+}
+**************************************************************
+9.)
+
+
 
