@@ -148,7 +148,27 @@ public class Main{
     
 }
 **************************************************************
-9.)
+9.)diamond pattern.....
+
+import java.util.Scanner;
+public class Main
+{
+    public static void main(String[] args) {
+        Scanner summa = new Scanner(System.in);
+        int limit = summa.nextInt();
+        for(int row=1;row<=2*limit-1;row++){
+            for(int col=1;col<=2*limit-1;col++)
+                if(row+col==limit+1||col-row==limit-1||row-col==limit-1||col+row==3*limit-1)
+                    System.out.print(" *");
+               else
+                    System.out.print("  ");
+                System.out.println();
+        }
+    }
+
+}
+****************************************************************************
+10.)
 
 
 
