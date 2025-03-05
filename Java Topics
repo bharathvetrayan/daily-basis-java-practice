@@ -1,0 +1,78 @@
+Function OverLoading :
+Same function name with same parameter passing
+
+public class Main
+{
+    void fun(){
+        System.out.println("i am bharath");
+    }
+      void fun(int a){
+        System.out.println("i am harshini");
+    }
+	public static void main(String[] args) {
+	Main summa = new Main();
+	summa.fun();
+	summa.fun(10);
+	}
+}
+O/P :
+i am bharath
+i am harshini
+*************************************************
+Constructor :
+--A constructor in java special method that is used to initialize objects
+--constructor is called when the object of a class created.
+
+
+public class student
+{
+    int rollno;
+    String name;
+    
+    //constructor
+    student(int a,String b){
+     rollno=a;
+     name=b;
+       
+    }
+	public static void main(String[] args) {
+	student summa = new student(8,"bharath");
+	student summa1 = new student(58,"harshini");
+	System.out.println(summa.rollno);
+    System.out.println(summa.name);
+    System.out.println(summa1.rollno);
+    System.out.println(summa1.name);
+
+	}
+}
+O/P :
+8 bharath
+58 harshini
+***********************************************************************
+This keyword
+---this keyword refers to the current object in a method or constructor
+---the most common use of this keyword is to eliminate the confusinon between the class attributes and parameter with same name
+
+
+public class student
+{
+    String name;
+    student(){
+        System.out.println("hello");
+    }
+    void display(String name){
+        this.name=name;
+    }
+	public static void main(String[] args) {
+	student summa = new student();
+	summa.display("bharath");
+	System.out.print(summa.name);
+
+	}
+}
+O/P :
+hello
+bharath
+**************************************************************************
+
+
