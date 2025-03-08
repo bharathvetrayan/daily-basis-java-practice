@@ -74,5 +74,34 @@ O/P :
 hello
 bharath
 **************************************************************************
+Super Keyword
+
+class bharath{
+    int num = 58;
+    bharath(String name){
+        System.out.println(name);
+    }
+    void summa(){
+        System.out.println("summa........");
+    }
+}
+//using super keyword..
+class harshini extends bharath{
+    harshini(){
+        super("hashini");//access the parent class paremeter
+        super.summa();// acess the parent class function
+        System.out.println("harshini wife of bharath...........");
+        System.out.println(super.num);//access the parent class field
+    }
+}
+
+public class Main
+{
+	public static void main(String[] args) {
+	    harshini obj = new harshini();
+	}
+}
+
+**********************************************************************
 
 
