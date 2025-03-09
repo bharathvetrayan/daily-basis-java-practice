@@ -75,6 +75,13 @@ hello
 bharath
 **************************************************************************
 Super Keyword
+----In Java, super keyword is used to refer to the parent class of a subclass
+-super is used to call a superclass constructor
+-super is used to call a superclass method
+-super is used to access a superclass field
+-super must be the first statement in a constructor
+-super cannot be used in a static context
+-super is not required to call a superclass method
 
 class bharath{
     int num = 58;
