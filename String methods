@@ -1,0 +1,12 @@
+1.) Java String length() Method :
+----Returns the number of characters in the String
+2.) Java String charAt() Method :
+----String charAt() method in Java returns the character at the specified index in a string. The Index of the first character in a string is 0, the second character is 1, and so on. The index value should lie between 0 and length() – 1.
+----If the index value is greater than or equal to the string length or negative number it returns stringIndexOutOfBoundsException
+3.) Java String substring() Method :
+Return the substring from the ith  index character to end.
+String substring (int i, int j)
+Returns the substring from i to j-1 index.
+----In Java, substring() method of String class returns a substring from the given string. This method is most useful when you deal with text manipulation, parsing, or data extraction.
+     --This method either take 1 parameter or 2 parameters i.e. start and end value as arguments.
+     --In case, if the end parameter is not specified then the substring will end at the end of the string.
