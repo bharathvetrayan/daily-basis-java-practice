@@ -1,0 +1,21 @@
+Creating a string in java by using these two method 
+1. Using String literal :
+String s = “GeeksforGeeks”;
+2. Using new keyword :
+String s = new String (“GeeksforGeeks”);
+
+
+
+String Reverse..
+public class Main
+{
+	public static void main(String[] args) {
+	    String str1 = "bharath";
+	  for(int i=str1.length()-1;i>=0;i--){
+	      char ch = str1.charAt(i);       //get Character of the String
+	      String ch1 = Character.toString(ch);     //change the Character into String
+	      System.out.print(ch1);
+	  }
+	}
+}
+*********************************
