@@ -10,3 +10,13 @@ Returns the substring from i to j-1 index.
 ----In Java, substring() method of String class returns a substring from the given string. This method is most useful when you deal with text manipulation, parsing, or data extraction.
      --This method either take 1 parameter or 2 parameters i.e. start and end value as arguments.
      --In case, if the end parameter is not specified then the substring will end at the end of the string.
+4.) String concat( String str)
+----Concatenates specified string to the end of this string.
+1. indexOf(char ch, int strt) 
+This method returns the index of the first occurrence of the specified character by starting the search at the specified index.
+2. indexOf(String str) 
+This method returns the index of the first occurrence of the specified substring in the string.
+3. indexOf(String str, int strt) 
+This method returns the index of the first occurrence of the specified substring by starting the search at the specified index.
+5.) Java String lastIndexOf() Method  :
+The String lastIndexOf() method returns the position of the last occurrence of a given character or substring in a String. The Index starts from 0, and if the given substring is not found it returns -1.
